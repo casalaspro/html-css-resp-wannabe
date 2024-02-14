@@ -146,4 +146,12 @@ img {
     section.lessons .col{
         width: 100%;
     }
+
+    section.lessons .col:first-child{
+        margin-bottom: 80px;
+    }
+
+    section.steps .col{
+        width: 100%;
+    }
 }

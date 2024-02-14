@@ -170,5 +170,19 @@ img {
     section.why-us{
         background-color: #222222;
         padding-top: 3em;
+        margin-bottom: 0;
+    }
+
+    section.why-us h2{
+        font-size: 3rem;
+    }
+
+    section.why-us .row{
+        flex-wrap: wrap;
+    }
+
+    section.why-us .col{
+        width: 100%;
+        margin-bottom: 80px;
     }
 }

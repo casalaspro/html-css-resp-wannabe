@@ -151,11 +151,24 @@ img {
         margin-bottom: 80px;
     }
 
+    section.steps{
+        margin: 3em 0 0;
+    }
+
     section.steps .col{
         width: 100%;
     }
 
+    section.steps .col:not(:last-child){
+        margin-bottom: 80px;
+    }
+
     section.steps .row{
         flex-wrap: wrap;
+    }
+
+    section.why-us{
+        background-color: #222222;
+        padding-top: 3em;
     }
 }

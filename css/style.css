@@ -134,6 +134,16 @@ img {
     }
 }
 
-@media screen and (max-width: 768) {
+@media screen and (max-width: 768px) {
     
+}
+
+@media screen and (max-width: 480px) {
+    section.lessons .row{
+        flex-wrap: wrap;
+    }
+
+    section.lessons .col{
+        width: 100%;
+    }
 }

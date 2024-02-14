@@ -154,4 +154,8 @@ img {
     section.steps .col{
         width: 100%;
     }
+
+    section.steps .row{
+        flex-wrap: wrap;
+    }
 }
